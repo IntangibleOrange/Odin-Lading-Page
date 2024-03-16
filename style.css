@@ -8,14 +8,51 @@ button {
     border: none;
     border-radius: 8px;
     background: rgb(14%, 63%, 93%);
+    width: 65px;
 }
 
 ul {
     list-style-type: none;
-
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
 }
+
 
 a {
     text-decoration: none;
     color: #666;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.captivate {
+    display: flex;
+    min-height: 200px;
+    background-color: lightskyblue;
+}
+
+.eye-catcher {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.text-catcher {
+    font-size: 45px;
+    font-weight: bolder;
+}
+.photo-catcher {
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
