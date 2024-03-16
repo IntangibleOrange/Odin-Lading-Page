@@ -1,14 +1,17 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    margin: 10px;
+    margin: 6px;
     padding: 0 100px;
 }
 button {
+    display: flex;
     font-family: Roboto, sans-serif;
     border: none;
     border-radius: 8px;
     background: rgb(14%, 63%, 93%);
-    width: 65px;
+    margin: 6px 0;
+    padding: 6px 20px;
+    width: 100px;
 }
 
 ul {
@@ -24,6 +27,11 @@ a {
     color: #666;
 }
 
+img {
+    width: 75px;
+    height: 75px;
+}
+
 .logo {
     font-size: 20px;
     font-weight: 700;
@@ -33,12 +41,14 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
 }
 
 .captivate {
     display: flex;
-    min-height: 200px;
-    background-color: lightskyblue;
+    flex-grow: 1;
+    background: lightskyblue;
+    padding: 60px 0;
 }
 
 .eye-catcher {
@@ -48,11 +58,86 @@ a {
 }
 
 .text-catcher {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bolder;
 }
+
 .photo-catcher {
     display: flex;
     flex: 1;
     justify-content: center;
 }
+
+.info {
+    text-align: center;
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.info-title {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.info-container {
+    max-width: 100px;
+}
+
+
+.customer-reply {
+    font-size: 25px;
+    font-weight: light;
+    display: flex;
+    flex-grow: 1;
+    padding: 60px 0;
+}
+
+.customer {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ad-space {
+    display: flex;
+    background-color: aqua;
+    flex-grow:  1;
+    margin: 30px;
+    padding: 40px 60px;
+    border-radius: 8px;
+    justify-content: space-between;
+
+}
+
+.ad-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.ad-head {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 16px 0;
+}
+
